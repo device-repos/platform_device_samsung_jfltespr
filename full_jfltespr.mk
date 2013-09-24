@@ -35,4 +35,4 @@ PRODUCT_MODEL := SPH-L720
 
 # APNS Configuration
 PRODUCT_COPY_FILES += \
-    device/samsung/jf-common/apns/spn-conf.xml:system/etc/spn-conf.xml \
+#    device/samsung/jf-common/apns/spn-conf.xml:system/etc/spn-conf.xml \
