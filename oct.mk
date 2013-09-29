@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/jfltespr/full_jfltespr.mk)
 
 # Inherit some common Oct stuff.
-# $(call inherit-product, vendor/oct/config/cdma.mk)
+ $(call inherit-product, vendor/oct/config/cdma.mk)
 
 # Enhanced NFC
-# $(call inherit-product, vendor/oct/config/nfc_enhanced.mk)
+ $(call inherit-product, vendor/oct/config/nfc_enhanced.mk)
 
 # Inherit some common Oct stuff.
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
