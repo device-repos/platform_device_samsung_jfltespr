@@ -23,8 +23,5 @@ NEEDS_GPS_MSB_DISABLED := true
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltespr/overlay
 
-## Inherit network from oct-vendor
-$(call inherit-product, vendor/oct/config/cdma.mk) 
-
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)
